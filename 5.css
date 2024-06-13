@@ -1,0 +1,65 @@
+/* p{
+    text-align: center;
+} */
+
+/* id based selection */
+/* #hello{
+    text-align: center;
+} */
+
+/* class based selection */
+.center{
+    text-align: center;
+}
+/* unversial selectore  */
+*{
+    background-color: aquamarine;
+}
+
+ /* grouping selectore  */
+ h1,p,.center{
+    color: darkblue;
+} 
+
+/* combinator selectore */
+/*1.descendant selectore */
+ /* div p{
+    background-color: blanchedalmond;
+} */
+
+/* 2. child swlector  */
+
+div>p{
+    background-color:lightcoral;
+}  
+
+/* 3.adjacent sibling selector */
+
+div+p{
+    color: blue;
+}
+
+
+/* 4. general adjacent sibling selector  */
+
+div~p{
+    color: blueviolet;
+}
+
+/* pseudo class  selectore*/
+
+div~p:hover{
+    background-color: yellow;
+}
+
+/* pseudo element selectore */
+
+div~p::first-letter{
+    color: black;
+}
+
+/* attribute selectore */
+
+a[target]{
+    background-color: cyan;
+}
